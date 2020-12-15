@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "coin-market",
+  "public": true,
+  "alias": ["coin-market.now.sh"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
+  ]
+}
